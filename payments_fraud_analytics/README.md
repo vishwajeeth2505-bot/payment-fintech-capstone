@@ -1,4 +1,4 @@
-# Payments & Fraud Analytics — Part 1
+# Payments & Fraud Analytics -Part 1
 
 ## Overview
 This part builds a payments-and-fraud analytics workbench for a synthetic Paytm-style
@@ -6,8 +6,8 @@ dataset (547 transactions, seed 42), covering spreadsheet analysis, SQL fraud de
 Python reconciliation, and a 4-layer visual dashboard.
 
 ## Setup
-Run ⁠ python3 generate_data.py ⁠ first — creates merchants.csv, users.csv, ledger.csv,
-and gateway_export.csv. Run ⁠ python3 build_db.py ⁠ to build paytm_payments.db.
+Run ⁠ python3 generate_data.py  first - creates merchants.csv, users.csv, ledger.csv,
+and gateway_export.csv. Run ⁠ python3 build_db.py ⁠ to build paytm_payments.db.
 Run ⁠ python3 queries.py ⁠ for SQL fraud detection. Run ⁠ python3 reconcile.py ⁠ for
 Part C reconciliation. Run ⁠ python3 dashboard.py ⁠ for the Part D dashboard images.
 
